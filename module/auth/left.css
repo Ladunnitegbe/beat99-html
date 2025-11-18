@@ -1,0 +1,48 @@
+.left {
+    position: relative;
+}
+
+.left__background-image {
+    object-fit: contain;
+}
+.left__content {
+    position: absolute;
+    left: 25%;
+    top: 40%;
+    color: #E4D5F5;
+}
+
+.left__logo h1 {
+    margin: 0;
+    font-size: 4rem;
+}
+.left__logo > p {
+    font-size: 0.8rem;
+    margin: 0;
+    margin-top: -0.6rem;
+    margin-right: 0.8rem;
+    text-align: right;
+}
+
+.left__title {
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.left__title h2 {
+    margin-bottom: 0;
+    font-size: 1.9rem;
+    text-align: center;
+}
+.left__title p {
+    margin: 0;
+    font-size: .7rem;
+    text-align: center;
+}
+.left__overlay {
+    background-color: rgba(1, 66, 92, 0.696);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
